@@ -1,11 +1,30 @@
  body {
-   font-family: Arial, sans-serif;
+   font-family: cursive, sans-serif;
+   background-color: #b4dfec;
+   color: #fff; 
  }
     
  h1{
    text-align: center;
+   font-family: cursive, sans-serif;
    margin-top: 50px;
  }
+ h2{
+  text-align: center;
+  font-family: cursive, sans-serif;
+  margin-top: 50px;
+}
+
+#reiniciar-btn {
+  display: block;
+   margin: 0 auto;
+   padding: 10px 20px;
+   font-size: 18px;
+   background-color: #0CBABA;
+   color: #fff;
+   border: none;
+   border-radius: 3px;
+}
 
  #guess-input {
    display: block;
@@ -21,15 +40,19 @@
    margin: 0 auto;
    padding: 10px 20px;
    font-size: 18px;
-   background-color: #0CBABA;
+   background-color: #0c26ba;
    color: #fff;
    border: none;
    border-radius: 3px;
+   font-family: cursive, sans-serif;
  }
     
  button:active {
  	transform: scale(0.95);
  }
+ button:disabled{
+  background-color: #0cba46;
+  }
     
  .letter {
      border: 1px solid black;
@@ -43,7 +66,9 @@
  .row{
      margin-bottom: 10px;
  }
-    
+ .centrado {
+  text-align: center;
+ }    
  .input-area{
      margin: 30px;
  }
